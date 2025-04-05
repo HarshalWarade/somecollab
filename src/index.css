@@ -1,0 +1,28 @@
+@import "tailwindcss";
+/* Neon Text Effect */
+.neon-text {
+    text-shadow: 0 0 10px #007BFF, 0 0 20px #007BFF, 0 0 30px #007BFF;
+    animation: flicker 1.5s infinite alternate;
+  }
+  
+  /* Flickering Animation */
+  @keyframes flicker {
+    0% { opacity: 0.8; text-shadow: 0 0 5px #007BFF, 0 0 15px #007BFF; }
+    100% { opacity: 1; text-shadow: 0 0 15px #007BFF, 0 0 30px #007BFF; }
+  }
+  
+  /* Glassmorphism Button */
+  .glass-button {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+  .glass-button:hover {
+    background: rgba(7, 7, 7, 0.3);
+    transform: translateY(-2px);
+  }
+  
+  
+  
