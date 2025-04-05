@@ -13,7 +13,7 @@ const Navbar = () => {
             ClickInnovate
           </span>
         </div>
-        <div className="hidden md:flex gap-6">
+        {/* <div className="hidden md:flex gap-6">
           <button
             onClick={() => handleScroll(aboutRef)}
             className="text-slate-600 hover:text-blue-600 transition-colors"
@@ -32,7 +32,7 @@ const Navbar = () => {
           >
             Contact
           </button>
-        </div>
+        </div> */}
       </nav>
   )
 }
